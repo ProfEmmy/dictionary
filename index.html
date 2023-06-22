@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-div">
+            <!-- <nav class="desktop-nav">
+                <div class="book-icon-div">
+                    <img src="images\book-solid.svg" alt="book-icon" class="book-icon">
+                </div>
+                <div class="theme-changers-div">
+                    <img src="images\toggle-off-solid.svg" alt="switch" class="switch">
+                    <img src="images\moon-regular.svg" alt="moon-icon" class="moon-icon">
+                </div>
+            </nav> -->
+            <main>
+                <form>
+                    <input type="text" class="input-field">
+                    <button type="submit" class="search">
+                        <img src="images\magnifying-glass-solid.svg" alt="search-icon">
+                    </button>
+                </form>
+                <div class="the-word-div">
+                    <div class="the-word">
+                        <h1 id="word"></h1>
+                        <h3 id="transcription"></h3>
+                    </div>
+                    <div class="play-icon-div">
+                        <img src="images\play-solid.svg" alt="play-icon" class="play-icon">
+                    </div>
+                </div>
+
+                <audio src="" id="audio"></audio>
+
+                <div class="result">
+                </div>
+
+                <template>
+                    <div class="part-of-speech-div">
+                        <h2 class="part-of-speech"></h2>
+                        <hr>
+                    </div>
+                    <p class="meanings-heading">Meanings:</p>
+                    <ul class="meaningslist">
+                    </ul>
+                    <p class="synonyms-heading">Synonyms:</p>
+                    <div class="synonyms-collection">
+                    </div>
+                    <p class="antonyms-heading">Antonyms:</p>
+                    <div class="antonyms-collection">
+                    </div>
+                </template>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

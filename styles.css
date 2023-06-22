@@ -1,0 +1,162 @@
+body {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    overflow-x: hidden;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.content-div {
+    width: 50vw;
+}
+
+.desktop-nav {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.theme-changers-div {
+    display: flex;
+    justify-content: right;
+}
+
+.book-icon {
+    width: 30px;
+    height: 40px;
+}
+
+.moon-icon {
+    margin-left: 10px;
+    width: 30px;
+    height: 40px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+
+form {
+    display: grid;
+    grid-template-areas: "overlap";
+}
+
+.input-field {
+    grid-area: overlap;
+    font-size: 1.3em;
+    padding-left: 20px;
+    width: 45vw;
+    height: 45px;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 93%);
+    border: 0px;
+    outline: none;
+}
+
+.search {
+    grid-area: overlap;
+    margin-left: 46vw;
+    background-color: hsl(0, 0%, 93%);
+    border: 0px;
+}
+
+.search>img {
+    cursor: pointer;
+    width: 15px;
+    filter: invert(8%) sepia(95%) saturate(6229%) hue-rotate(297deg) brightness(85%) contrast(104%);
+}
+
+.the-word-div {
+    margin-top: 15px;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.the-word>h3 {
+    margin-top: -15px;
+    color: purple;
+}
+
+.play-icon-div {
+    display: grid;
+    justify-items: right;
+    align-items: center;
+}
+
+.play-icon {
+    display: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    filter: invert(8%) sepia(95%) saturate(6229%) hue-rotate(297deg) brightness(85%) contrast(104%);
+}
+
+.result>.part-of-speech-div {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 5vw auto;
+}
+
+.result>.part-of-speech-div>.part-of-speech {
+    font-size: 1.9em;
+}
+
+.result>.part-of-speech-div>hr {
+    width: 40vw;
+    height: .2px;
+    align-self: center;
+}
+
+.result>.meanings-heading {
+    font-size: 1.4em;
+    color: hsl(0, 0%, 65%);
+}
+
+.result>ul>li {
+    font-size: 1.1em;
+}
+
+.result>.synonyms-heading {
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: hsl(0, 0%, 65%);
+}
+
+.result>.synonyms-collection {
+    display: flex;
+    flex-direction: row;
+}
+
+.result>.synonyms-collection>p {
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-right: 30px;
+    color: purple;
+    font-weight: bold;
+}
+
+.result>.antonyms-heading {
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: hsl(0, 0%, 65%);
+}
+
+.result>.antonyms-collection {
+    display: flex;
+    flex-direction: row;
+}
+
+.result>.antonyms-collection>p {
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-right: 30px;
+    color: purple;
+    font-weight: bold;
+}

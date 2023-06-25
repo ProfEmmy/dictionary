@@ -160,3 +160,44 @@ form {
     color: purple;
     font-weight: bold;
 }
+
+.error-div {
+    font-weight: bold;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 30vh;
+    color: red;
+}
+
+.display {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .content-div {
+        width: 80vw;
+    }
+
+    .input-field {
+        width: auto;
+    }
+
+    .search {
+        margin-left: 67vw;
+    }
+
+    .the-word-div {
+        width: 80vw;
+    }
+
+    .error-div {
+        width: 80vw;
+    }
+
+    .result>.part-of-speech-div>hr {
+        width: 57vw;
+    }
+}
